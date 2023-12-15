@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Josefin+Sans:ital,wght@1,500&family=Lexend+Deca&family=Livvic:wght@600;700&family=Space+Mono:wght@700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arrial" sans-serif;
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.heading {
+  text-align: center;
+}
+
+.select__bottom {
+  margin-top: 10px;
+}
+
+.button__left {
+  margin-top: 10px;
+}
+
+.left__heading {
+  text-align: center;
+}
+
+.content__left {
+  margin-left: 50px;
+}
+
+.content__rigth {
+  margin-left: 100px;
+}
+
+.rigth__images {
+  display: flex;
+  grid-template-columns: auto auto;
+}
+
+.grid__container {
+  max-width: 1440px;
+  width: 100%;
+  display: grid;
+  margin: 0;
+  padding: 20px;
+}
+
+.grid__content {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.bi1 {
+  color: yellow;
+}
+
+.btn-toolbar {
+  justify-content: center;
+}
+
+.card-img-top {
+  width: 20px;
+}
+
+.page-item {
+  margin-top: 40px;
+}
